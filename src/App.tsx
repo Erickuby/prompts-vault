@@ -192,6 +192,9 @@ const heroSamplePrompt = `[ROLE] Senior AI campaign strategist
 [INPUTS] audience, offer, channel, tone, creative constraints
 [OUTPUT] final prompt, style notes, and 3 high-quality variations`;
 
+const promptEngineeringGptUrl =
+  "https://chatgpt.com/g/g-69910cdbcc8c81919ffdc80ad7bc9297-prompt-engineering-guide";
+
 const legalDocuments: LegalDocument[] = [
   {
     id: "terms",
@@ -1412,6 +1415,17 @@ export default function App() {
           )}
 
           <div className="flex items-center gap-3">
+            <a
+              className="inline-flex items-center gap-2 rounded-full bg-[#F4B400] px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#08111D] transition hover:translate-y-[-1px] hover:shadow-[0_20px_45px_-28px_rgba(244,180,0,0.8)]"
+              href={promptEngineeringGptUrl}
+              rel="noreferrer"
+              target="_blank"
+            >
+              <WandSparkles className="h-4 w-4" />
+              <span className="sm:hidden">Prompt GPT</span>
+              <span className="hidden sm:inline">Prompt Engineering GPT</span>
+              <ArrowUpRight className="h-4 w-4" />
+            </a>
             {activeLegalDocument ? (
               <button
                 className="hidden rounded-full border border-white/12 bg-white/[0.05] px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-slate-100 transition hover:bg-white/[0.1] sm:inline-flex"
@@ -1482,6 +1496,39 @@ export default function App() {
                 <ShieldCheck className="h-4 w-4" />
                 View license
               </button>
+            </div>
+
+            <div className="mt-6 rounded-[28px] border border-[#2EC4C7]/18 bg-[linear-gradient(135deg,rgba(91,44,131,0.22),rgba(46,196,199,0.08))] p-5 shadow-[0_28px_70px_-45px_rgba(46,196,199,0.45)] sm:p-6">
+              <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
+                <div className="max-w-3xl">
+                  <p className="text-[11px] uppercase tracking-[0.24em] text-[#2EC4C7]">
+                    Advanced Prompt Help
+                  </p>
+                  <h3 className="mt-3 text-2xl font-semibold text-white sm:text-3xl">
+                    Use the companion Prompt Engineering GPT to strengthen weak prompts fast.
+                  </h3>
+                  <p className="mt-3 text-sm leading-7 text-slate-300/78 sm:text-[15px]">
+                    If visitors want help refining a rough idea, improving clarity, or generating
+                    stronger variations before they use the vault, they can open the dedicated
+                    Prompt Engineering GPT and get guided enhancement support.
+                  </p>
+                </div>
+
+                <div className="flex flex-col gap-3 sm:min-w-[260px]">
+                  <a
+                    className="inline-flex items-center justify-center gap-2 rounded-full bg-[#F4B400] px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.22em] text-[#08111D] transition hover:translate-y-[-1px] hover:shadow-[0_20px_45px_-28px_rgba(244,180,0,0.8)]"
+                    href={promptEngineeringGptUrl}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Open Prompt GPT
+                    <ArrowUpRight className="h-4 w-4" />
+                  </a>
+                  <p className="text-center text-xs leading-6 text-slate-300/62">
+                    Best for upgrading vague prompts into cleaner, more strategic instructions.
+                  </p>
+                </div>
+              </div>
             </div>
 
             <div className="mt-10 grid gap-4 sm:grid-cols-3">
