@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  --brand-primary: #0d1b2a;
+  --brand-secondary: #5b2c83;
+  --brand-accent-cyan: #2ec4c7;
+  --brand-accent-gold: #f4b400;
+  --bg-primary: #08111d;
+  --bg-secondary: #0d1b2a;
+  --surface: rgba(13, 27, 42, 0.72);
+  --surface-strong: rgba(20, 36, 58, 0.86);
+  --border-soft: rgba(255, 255, 255, 0.12);
+  --text-primary: #ffffff;
+  --text-secondary: rgba(230, 238, 247, 0.76);
+  --shadow-soft: 0 36px 90px -60px rgba(0, 0, 0, 0.92);
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Manrope", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 12% 0%, rgba(91, 44, 131, 0.26), transparent 34%),
+    radial-gradient(circle at 88% 14%, rgba(46, 196, 199, 0.14), transparent 28%),
+    radial-gradient(circle at 52% 100%, rgba(244, 180, 0, 0.08), transparent 34%),
+    linear-gradient(180deg, #08111d 0%, #0d1b2a 52%, #08111d 100%);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+}
+
+::selection {
+  background: rgba(244, 180, 0, 0.28);
+  color: #08111d;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.app-shell {
+  position: relative;
+  overflow-x: clip;
+}
+
+.app-shell__orb {
+  pointer-events: none;
+  position: fixed;
+  z-index: 0;
+  border-radius: 999px;
+  filter: blur(90px);
+  opacity: 0.75;
+}
+
+.app-shell__orb--one {
+  top: -4rem;
+  left: -6rem;
+  height: 22rem;
+  width: 22rem;
+  background:
+    radial-gradient(circle at center, rgba(91, 44, 131, 0.42) 0%, rgba(91, 44, 131, 0.1) 58%, transparent 78%);
+}
+
+.app-shell__orb--two {
+  right: -5rem;
+  top: 18rem;
+  height: 20rem;
+  width: 20rem;
+  background:
+    radial-gradient(circle at center, rgba(46, 196, 199, 0.34) 0%, rgba(46, 196, 199, 0.08) 58%, transparent 78%);
+}
+
+.app-shell__grid {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background-image:
+    linear-gradient(rgba(46, 196, 199, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-position: center;
+  background-size: 120px 120px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.45), transparent 88%);
+}
+
+.hero-panel {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background:
+    radial-gradient(circle at top right, rgba(244, 180, 0, 0.16), transparent 28%),
+    radial-gradient(circle at 18% 24%, rgba(91, 44, 131, 0.18), transparent 26%),
+    radial-gradient(circle at bottom left, rgba(46, 196, 199, 0.14), transparent 34%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.08), rgba(13, 27, 42, 0.48));
+  box-shadow: var(--shadow-soft);
+}
+
+.hero-panel::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(120deg, rgba(255, 255, 255, 0.05), transparent 35%),
+    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.08), transparent 18%);
+  opacity: 0.65;
+}
+
+.surface-panel {
+  border: 1px solid var(--border-soft);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.025)),
+    linear-gradient(135deg, rgba(13, 27, 42, 0.86), rgba(8, 17, 29, 0.94));
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: blur(18px);
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+pre::-webkit-scrollbar,
+div::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+pre::-webkit-scrollbar-track,
+div::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+pre::-webkit-scrollbar-thumb,
+div::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+}
+
+pre::-webkit-scrollbar-thumb:hover,
+div::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+@media (max-width: 768px) {
+  .app-shell__orb--one {
+    left: -8rem;
+    top: -6rem;
+    height: 18rem;
+    width: 18rem;
+  }
+
+  .app-shell__orb--two {
+    right: -7rem;
+    top: 24rem;
+    height: 16rem;
+    width: 16rem;
+  }
+
+  .app-shell__grid {
+    background-size: 80px 80px;
+  }
+}
