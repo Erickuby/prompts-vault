@@ -890,26 +890,26 @@ const PromptView: React.FC<{
 
   return (
     <motion.article
-      className="rounded-[28px] border border-white/10 bg-white/[0.03] overflow-hidden"
+      className="min-w-0 overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03]"
       layout
       style={surfaceStyle(tone.accent, tone.glow)}
     >
       <button
         aria-expanded={isExpanded}
-        className="w-full px-5 py-5 text-left transition hover:bg-white/[0.025] sm:px-6 sm:py-6"
+        className="w-full min-w-0 px-5 py-5 text-left transition hover:bg-white/[0.025] sm:px-6 sm:py-6"
         onClick={() => setIsOpen((current) => !current)}
         type="button"
       >
-        <div className="mb-4 flex flex-wrap items-center gap-2">
+        <div className="mb-4 flex flex-wrap items-start gap-2">
           <span
-            className="rounded-full border px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.24em]"
+            className="w-full rounded-full border px-3 py-1 text-left text-[11px] font-semibold uppercase tracking-[0.24em] leading-5 [overflow-wrap:anywhere] sm:w-auto sm:whitespace-nowrap"
             style={accentBadgeStyle(tone.accent)}
           >
             {categoryName}
           </span>
           {(prompt.tags ?? []).slice(0, 3).map((tag) => (
             <span
-              className="rounded-full border border-white/10 bg-white/[0.04] px-3 py-1 text-[11px] uppercase tracking-[0.2em] text-slate-300/70"
+              className="max-w-full rounded-full border border-white/10 bg-white/[0.04] px-3 py-1 text-[11px] uppercase tracking-[0.2em] text-slate-300/70 leading-5 [overflow-wrap:anywhere]"
               key={tag}
             >
               {tag}
@@ -917,12 +917,12 @@ const PromptView: React.FC<{
           ))}
         </div>
 
-        <div className="flex items-start justify-between gap-6">
-          <div className="space-y-3">
-            <h3 className="font-display text-2xl leading-tight text-white sm:text-[2rem]">
+        <div className="flex items-start justify-between gap-4 sm:gap-6">
+          <div className="min-w-0 flex-1 space-y-3">
+            <h3 className="font-display text-2xl leading-tight text-white [overflow-wrap:anywhere] sm:text-[2rem]">
               {prompt.title}
             </h3>
-            <p className="max-w-3xl text-sm leading-7 text-slate-300/74 sm:text-[15px]">
+            <p className="max-w-3xl text-sm leading-7 text-slate-300/74 [overflow-wrap:anywhere] sm:text-[15px]">
               {prompt.description ??
                 "A reusable prompt pattern designed for faster production and better output consistency."}
             </p>
@@ -934,7 +934,7 @@ const PromptView: React.FC<{
           </div>
         </div>
 
-        <div className="mt-5 flex flex-wrap items-center gap-4 text-[11px] uppercase tracking-[0.22em] text-slate-300/45">
+        <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2 text-[11px] uppercase tracking-[0.22em] text-slate-300/45">
           <span>{prompt.rules?.length ?? 0} rules</span>
           <span>{prompt.example ? "example included" : "template only"}</span>
           <span>{Math.max(1, Math.round(prompt.template.length / 220))} min scan</span>
@@ -1096,14 +1096,14 @@ const CategorySection: React.FC<{
         type="button"
       >
         <div className="flex flex-col gap-6 xl:flex-row xl:items-start xl:justify-between">
-          <div className="flex items-start gap-4 sm:gap-5">
+          <div className="flex min-w-0 items-start gap-4 sm:gap-5">
             <div
               className="rounded-[22px] border p-4"
               style={accentBadgeStyle(category.meta.accent)}
             >
               <Icon className="h-6 w-6" />
             </div>
-            <div className="space-y-4">
+            <div className="min-w-0 flex-1 space-y-4">
               <div className="flex flex-wrap items-center gap-3">
                 <span
                   className="rounded-full border px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.24em]"
@@ -1111,18 +1111,20 @@ const CategorySection: React.FC<{
                 >
                   {String(index + 1).padStart(2, "0")}
                 </span>
-                <span className="text-[11px] uppercase tracking-[0.28em] text-slate-300/55">
+                <span className="text-[11px] uppercase tracking-[0.28em] text-slate-300/55 [overflow-wrap:anywhere]">
                   {category.meta.eyebrow}
                 </span>
               </div>
-              <div>
-                <h2 className="font-display text-3xl leading-tight text-white sm:text-5xl">
+              <div className="min-w-0">
+                <h2 className="font-display text-3xl leading-tight text-white [overflow-wrap:anywhere] sm:text-5xl">
                   {category.name}
                 </h2>
-                <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-300/74 sm:text-[15px]">
+                <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-300/74 [overflow-wrap:anywhere] sm:text-[15px]">
                   {category.description}
                 </p>
-                <p className="mt-3 text-sm leading-7 text-slate-300/60">{category.meta.blurb}</p>
+                <p className="mt-3 text-sm leading-7 text-slate-300/60 [overflow-wrap:anywhere]">
+                  {category.meta.blurb}
+                </p>
               </div>
             </div>
           </div>
@@ -1832,11 +1834,11 @@ export default function App() {
               <p className="text-[11px] uppercase tracking-[0.24em] text-slate-300/45">
                 Collections
               </p>
-              <div className="mt-4 flex gap-3 overflow-x-auto pb-1">
+              <div className="mt-4 grid gap-3 sm:grid-cols-2">
                 {filteredCategories.map((category) => (
                   <button
                     aria-current={activeCategory === category.id ? "true" : undefined}
-                    className={`shrink-0 rounded-full border px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.22em] transition ${
+                    className={`w-full rounded-[20px] border px-4 py-3 text-left text-[11px] font-semibold uppercase tracking-[0.22em] transition ${
                       activeCategory === category.id
                         ? "border-[#F4B400]/40 bg-[#F4B400]/15 text-[#F4B400]"
                         : "border-white/12 bg-white/[0.04] text-slate-100 hover:bg-white/[0.09]"
