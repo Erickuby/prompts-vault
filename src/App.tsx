@@ -23,7 +23,6 @@ import {
   Copy,
   Filter,
   LayoutGrid,
-  Link2,
   Search,
   ShieldCheck,
   Sparkles,
@@ -134,6 +133,37 @@ const featuredTags = [...tagCounts.entries()]
   .sort((first, second) => second[1] - first[1])
   .slice(0, 10)
   .map(([tag, count]) => ({ tag, count }));
+
+const heroWorkflowSteps = [
+  {
+    title: "Discover",
+    detail: "Find prompt systems by outcome, creative lane, and production use case in seconds.",
+    accent: "#2EC4C7",
+    icon: Search,
+  },
+  {
+    title: "Adapt",
+    detail: "Swap in your brief, constraints, and brand context without starting from zero.",
+    accent: "#5B2C83",
+    icon: WandSparkles,
+  },
+  {
+    title: "Deploy",
+    detail: "Move into execution with cleaner instructions and more consistent output quality.",
+    accent: "#F4B400",
+    icon: BadgeCheck,
+  },
+] satisfies Array<{
+  title: string;
+  detail: string;
+  accent: string;
+  icon: LucideIcon;
+}>;
+
+const heroSamplePrompt = `[ROLE] Senior AI campaign strategist
+[GOAL] Turn a rough idea into a polished, conversion-ready prompt
+[INPUTS] audience, offer, channel, tone, creative constraints
+[OUTPUT] final prompt, style notes, and 3 high-quality variations`;
 
 const copyText = async (text: string) => {
   if (navigator.clipboard?.writeText) {
@@ -716,30 +746,6 @@ export default function App() {
     }
   };
 
-  const handleShare = async (title: string, text: string) => {
-    const url = window.location.href;
-
-    if (navigator.share) {
-      try {
-        await navigator.share({ title, text, url });
-        showNotice("Share ready", "The share sheet opened for this vault.");
-        return;
-      } catch (error) {
-        if (error instanceof DOMException && error.name === "AbortError") {
-          return;
-        }
-      }
-    }
-
-    try {
-      await copyText(url);
-      showNotice("Link copied", "Share the vault link anywhere you like.");
-    } catch (error) {
-      console.error("Share fallback failed.", error);
-      showNotice("Sharing unavailable", "Manual copy may be required on this device.", "error");
-    }
-  };
-
   const jumpToCategory = (categoryId: string) => {
     const element = document.getElementById(categoryId);
     if (!element) {
@@ -807,14 +813,6 @@ export default function App() {
             >
               Updates
             </button>
-            <button
-              className="inline-flex items-center gap-2 rounded-full border border-white/12 bg-white/[0.05] px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-slate-100 transition hover:bg-white/[0.1]"
-              onClick={() => handleShare("Prompt Vault Pro", "Explore this premium prompt vault.")}
-              type="button"
-            >
-              <Link2 className="h-4 w-4" />
-              Share
-            </button>
           </div>
         </div>
       </header>
@@ -837,9 +835,10 @@ export default function App() {
                 A sharper, more dynamic vault for browsing, filtering, and deploying prompts.
               </h1>
               <p className="max-w-2xl text-base leading-8 text-slate-300/76 sm:text-lg">
-                The library now behaves more like a polished product dashboard than a static file:
-                cleaner hierarchy, stronger visual rhythm, faster discovery, and responsive layouts
-                that feel intentional on mobile and desktop.
+                A premium prompt vault for creators, marketers, and operators who want image
+                prompts, reusable frameworks, prompt codes, and cinematic video direction in one
+                place, so they can move from blank page to production-ready output faster and with
+                far less guesswork.
               </p>
             </div>
 
@@ -883,6 +882,86 @@ export default function App() {
                 <p className="mt-2 text-sm leading-6 text-slate-300/70">
                   Structured prompt patterns with clear operating constraints.
                 </p>
+              </div>
+            </div>
+
+            <div className="mt-6 grid gap-4 lg:grid-cols-[minmax(0,1.15fr)_minmax(320px,0.85fr)]">
+              <div className="rounded-[28px] border border-white/10 bg-black/18 p-5 sm:p-6">
+                <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+                  <div>
+                    <p className="text-[11px] uppercase tracking-[0.24em] text-slate-300/45">
+                      Vault workflow
+                    </p>
+                    <h3 className="mt-3 text-xl font-semibold text-white sm:text-2xl">
+                      One system for finding, refining, and shipping better prompts.
+                    </h3>
+                  </div>
+                  <p className="max-w-sm text-sm leading-6 text-slate-300/65">
+                    Built to reduce prompt fatigue and give you a stronger starting point for every
+                    brief.
+                  </p>
+                </div>
+
+                <div className="mt-5 grid gap-3 md:grid-cols-3">
+                  {heroWorkflowSteps.map((step, index) => {
+                    const Icon = step.icon;
+
+                    return (
+                      <div
+                        className="rounded-[22px] border border-white/10 bg-white/[0.03] p-4"
+                        key={step.title}
+                      >
+                        <div className="flex items-center justify-between gap-3">
+                          <div
+                            className="rounded-2xl border p-3"
+                            style={accentBadgeStyle(step.accent)}
+                          >
+                            <Icon className="h-5 w-5" />
+                          </div>
+                          <span className="text-[11px] uppercase tracking-[0.22em] text-slate-300/45">
+                            {String(index + 1).padStart(2, "0")}
+                          </span>
+                        </div>
+                        <p className="mt-4 text-sm font-semibold uppercase tracking-[0.2em] text-white/92">
+                          {step.title}
+                        </p>
+                        <p className="mt-2 text-sm leading-6 text-slate-300/70">{step.detail}</p>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+
+              <div className="rounded-[28px] border border-white/10 bg-black/18 p-5 sm:p-6">
+                <p className="text-[11px] uppercase tracking-[0.24em] text-slate-300/45">
+                  Prompt specimen
+                </p>
+                <h3 className="mt-3 text-xl font-semibold text-white sm:text-2xl">
+                  What a production-ready starting point looks like.
+                </h3>
+                <p className="mt-3 text-sm leading-6 text-slate-300/68">
+                  The vault is designed around structured prompts that are fast to adapt, easier to
+                  trust, and ready to drop into real creative workflows.
+                </p>
+
+                <div className="mt-5 rounded-[24px] border border-white/10 bg-[#08111D]/72 p-4 shadow-[0_18px_45px_-28px_rgba(8,17,29,0.95)]">
+                  <pre className="whitespace-pre-wrap font-mono text-[12px] leading-6 text-slate-100/82 sm:text-[13px]">
+                    {heroSamplePrompt}
+                  </pre>
+                </div>
+
+                <div className="mt-4 flex flex-wrap gap-2">
+                  {["Image Systems", "Prompt Frameworks", "Reusable Codes", "Video Direction"].map(
+                    (label) => (
+                      <span
+                        className="rounded-full border border-white/10 bg-white/[0.04] px-3 py-1 text-[11px] uppercase tracking-[0.2em] text-slate-300/70"
+                        key={label}
+                      >
+                        {label}
+                      </span>
+                    ),
+                  )}
+                </div>
               </div>
             </div>
           </motion.div>
@@ -959,14 +1038,6 @@ export default function App() {
                 type="button"
               >
                 Reset filters
-              </button>
-              <button
-                className="inline-flex items-center gap-2 rounded-full border border-white/12 bg-white/[0.05] px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-slate-100 transition hover:bg-white/[0.1]"
-                onClick={() => handleShare("Prompt Vault Pro", "Explore this premium prompt vault.")}
-                type="button"
-              >
-                <Link2 className="h-4 w-4" />
-                Copy share link
               </button>
             </div>
           </div>
@@ -1228,14 +1299,6 @@ export default function App() {
                     type="button"
                   >
                     <span>Open license details</span>
-                    <ArrowUpRight className="h-4 w-4 text-slate-300/45" />
-                  </button>
-                  <button
-                    className="inline-flex items-center justify-between rounded-[20px] border border-white/10 bg-white/[0.04] px-4 py-4 text-left text-sm text-slate-100 transition hover:bg-white/[0.08]"
-                    onClick={() => handleShare("Prompt Vault Pro", "Explore this premium prompt vault.")}
-                    type="button"
-                  >
-                    <span>Copy share link</span>
                     <ArrowUpRight className="h-4 w-4 text-slate-300/45" />
                   </button>
                 </div>
