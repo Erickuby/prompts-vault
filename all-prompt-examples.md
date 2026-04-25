@@ -1,4 +1,4 @@
-# Prompt Vault Pro - All Curated Prompt Examples
+﻿# Prompt Vault Pro - All Curated Prompt Examples
 
 Extracted from `src/data/prompts.ts`.
 
@@ -404,7 +404,7 @@ Premium AI image prompt.
 Tags: Image, Director
 
 ```text
-Overhead flat-lay food photograph of a artisan gelato scoops for an Italian gelateria summer campaign.
+Overhead flat-lay food photograph of artisan gelato scoops for an Italian gelateria summer campaign.
 Primary dish: describe exact ingredients, arrangement, colour, and texture.
 Supporting elements: scattered [INGREDIENTS], garnish, tableware, and [DRINK] chosen for the cuisine.
 Surface: premium tactile surface with visible material character.
@@ -442,7 +442,7 @@ Professional prompt engineering use case.
 Tags: Prompt Engineering
 
 ```text
-CONTEXT: I am the founder of a UK-based health tech startup called "ClearMind" launching a wearable stress-monitoring device that reads cortisol levels through sweat. We are announcing a ?2.3M seed funding round alongside the product launch. Target press: TechCrunch UK, Wired, The Guardian Tech section.
+CONTEXT: I am the founder of a UK-based health tech startup called "ClearMind" launching a wearable stress-monitoring device that reads cortisol levels through sweat. We are announcing a £2.3M seed funding round alongside the product launch. Target press: TechCrunch UK, Wired, The Guardian Tech section.
 ROLE: Act as a Senior PR Director at a top London communications agency with 12 years of tech startup press experience.
 ACTION: Write a press release for this announcement.
 FORMAT: Headline, sub-headline, lead paragraph, founder quote, investor quote, product details, boilerplate, press contact placeholder.
@@ -577,7 +577,7 @@ Professional prompt engineering use case.
 Tags: Prompt Engineering
 
 ```text
-Diagnose a ?297 course landing page with 78% bounce, 23 seconds average time, and poor hero scroll depth; provide root cause analysis and a 3-step fix.
+Diagnose a £297 course landing page with 78% bounce, 23 seconds average time, and poor hero scroll depth; provide root cause analysis and a 3-step fix.
 ```
 
 ### 13. SEO - Traffic Dropped 60% Overnight
@@ -597,7 +597,7 @@ Professional prompt engineering use case.
 Tags: Prompt Engineering
 
 ```text
-Assess a SaaS startup with ?67,000 cash, ?19,000 burn, ?4,200 MRR, and 3.5 months runway; provide urgent survival, revenue, and investor prep plan.
+Assess a SaaS startup with £67,000 cash, £19,000 burn, £4,200 MRR, and 3.5 months runway; provide urgent survival, revenue, and investor prep plan.
 ```
 
 ### 15. Legal - Business Partner Dispute
@@ -627,7 +627,7 @@ Professional prompt engineering use case.
 Tags: Prompt Engineering
 
 ```text
-Generate a complete 10-minute verbal pitch script for GrainFree, a UK gluten-free meal-kit subscription with ?18,000 MRR and 94% retention.
+Generate a complete 10-minute verbal pitch script for GrainFree, a UK gluten-free meal-kit subscription with £18,000 MRR and 94% retention.
 ```
 
 ### 18. Rapid Social Media Content Plan
@@ -647,7 +647,7 @@ Professional prompt engineering use case.
 Tags: Prompt Engineering
 
 ```text
-Generate a UK-to-Nigeria HR consulting market entry analysis and 18-month roadmap with risks, regulation, relationships, and ?30,000 budget use.
+Generate a UK-to-Nigeria HR consulting market entry analysis and 18-month roadmap with risks, regulation, relationships, and £30,000 budget use.
 ```
 
 ### 20. Rapid Compliance Guidelines - Food Business
@@ -707,7 +707,7 @@ Professional prompt engineering use case.
 Tags: Prompt Engineering
 
 ```text
-CONTEXT: A new corporate client has sent me their standard supplier contract to sign. It is 12 pages long. I am a freelance consultant charging ?800/day and I do not have a solicitor. The contract covers a 3-month engagement worth ?28,800.
+CONTEXT: A new corporate client has sent me their standard supplier contract to sign. It is 12 pages long. I am a freelance consultant charging £800/day and I do not have a solicitor. The contract covers a 3-month engagement worth £28,800.
 [PASTE THE FULL CONTRACT TEXT HERE]
 ROLE: Act as a Senior UK Commercial Solicitor specialising in freelance and independent contractor agreements.
 ACTION: Review this contract and give me a plain-English risk assessment and negotiation guide.
@@ -722,304 +722,607 @@ CONSTRAINTS: UK law only, English and Welsh jurisdiction, sole trader context.
 
 ### 1. Blueprint: Launch Your First Digital Product
 
-Reusable prompt code.
+Blueprint prompt code for complete action plans.
 
-Tags: Prompt Codes
+Tags: Blueprint, Prompt Codes
 
 ```text
 BLUEPRINT: LAUNCH YOUR FIRST DIGITAL PRODUCT
 
-Build a complete practical blueprint from my starting position. Break the answer into phases, include specific action steps, risks, timelines, milestones, and one mistake to avoid per phase. Use direct language and make the plan operational, not inspirational.
+BLUEPRINT: Build a complete practical plan for this scenario: 60-day launch blueprint.
+
+Include: starting position, phases, weekly actions, risk points, milestones, and pivot triggers.
+
+Required structure:
+- Starting assumptions to confirm
+- Step-by-step roadmap
+- Timeline with weekly or monthly milestones
+- Exact actions, not vague advice
+- Resource or budget constraints
+- Success metrics
+- One avoid-this-mistake warning per phase
+
+Tone: direct, operational, no motivational filler.
 ```
 
 ### 2. Blueprint: Build Your Freelance Brand Design Business
 
-Reusable prompt code.
+Blueprint prompt code for complete action plans.
 
-Tags: Prompt Codes
+Tags: Blueprint, Prompt Codes
 
 ```text
 BLUEPRINT: BUILD YOUR FREELANCE BRAND DESIGN BUSINESS
 
-Build a complete practical blueprint from my starting position. Break the answer into phases, include specific action steps, risks, timelines, milestones, and one mistake to avoid per phase. Use direct language and make the plan operational, not inspirational.
+BLUEPRINT: Build a complete practical plan for this scenario: 6-month freelance transition blueprint.
+
+Include: portfolio gaps, first-client acquisition, pricing, retainers, resignation threshold, and first-week operating plan.
+
+Required structure:
+- Starting assumptions to confirm
+- Step-by-step roadmap
+- Timeline with weekly or monthly milestones
+- Exact actions, not vague advice
+- Resource or budget constraints
+- Success metrics
+- One avoid-this-mistake warning per phase
+
+Tone: direct, operational, no motivational filler.
 ```
 
 ### 3. Blueprint: Grow A Newsletter To 5,000 Subscribers
 
-Reusable prompt code.
+Blueprint prompt code for complete action plans.
 
-Tags: Prompt Codes
+Tags: Blueprint, Prompt Codes
 
 ```text
 BLUEPRINT: GROW A NEWSLETTER TO 5,000 SUBSCRIBERS
 
-Build a complete practical blueprint from my starting position. Break the answer into phases, include specific action steps, risks, timelines, milestones, and one mistake to avoid per phase. Use direct language and make the plan operational, not inspirational.
+BLUEPRINT: Build a complete practical plan for this scenario: 12-month newsletter growth blueprint.
+
+Include: platform choice, first 100 subscribers, content structure, partnerships, referral loop, monetisation, and health metrics.
+
+Required structure:
+- Starting assumptions to confirm
+- Step-by-step roadmap
+- Timeline with weekly or monthly milestones
+- Exact actions, not vague advice
+- Resource or budget constraints
+- Success metrics
+- One avoid-this-mistake warning per phase
+
+Tone: direct, operational, no motivational filler.
 ```
 
 ### 4. Blueprint: Launch An Online Coaching Business
 
-Reusable prompt code.
+Blueprint prompt code for complete action plans.
 
-Tags: Prompt Codes
+Tags: Blueprint, Prompt Codes
 
 ```text
 BLUEPRINT: LAUNCH AN ONLINE COACHING BUSINESS
 
-Build a complete practical blueprint from my starting position. Break the answer into phases, include specific action steps, risks, timelines, milestones, and one mistake to avoid per phase. Use direct language and make the plan operational, not inspirational.
+BLUEPRINT: Build a complete practical plan for this scenario: 90-day coaching business launch blueprint.
+
+Include: positioning, offer design, proof building, visibility, discovery calls, first sales, and objection handling.
+
+Required structure:
+- Starting assumptions to confirm
+- Step-by-step roadmap
+- Timeline with weekly or monthly milestones
+- Exact actions, not vague advice
+- Resource or budget constraints
+- Success metrics
+- One avoid-this-mistake warning per phase
+
+Tone: direct, operational, no motivational filler.
 ```
 
 ### 5. Blueprint: Build A Profitable AI Automation Agency
 
-Reusable prompt code.
+Blueprint prompt code for complete action plans.
 
-Tags: Prompt Codes
+Tags: Blueprint, Prompt Codes
 
 ```text
 BLUEPRINT: BUILD A PROFITABLE AI AUTOMATION AGENCY
 
-Build a complete practical blueprint from my starting position. Break the answer into phases, include specific action steps, risks, timelines, milestones, and one mistake to avoid per phase. Use direct language and make the plan operational, not inspirational.
+BLUEPRINT: Build a complete practical plan for this scenario: 90-day AI automation agency blueprint.
+
+Include: niche use cases, productised service design, case studies, paid audits, outreach, retainers, pricing, and delivery systems.
+
+Required structure:
+- Starting assumptions to confirm
+- Step-by-step roadmap
+- Timeline with weekly or monthly milestones
+- Exact actions, not vague advice
+- Resource or budget constraints
+- Success metrics
+- One avoid-this-mistake warning per phase
+
+Tone: direct, operational, no motivational filler.
 ```
 
 ### 6. Simulate: Investor Q&A Pressure Test
 
-Reusable prompt code.
+Simulation prompt code for realistic live practice.
 
-Tags: Prompt Codes
+Tags: Simulate, Prompt Codes
 
 ```text
 SIMULATE: INVESTOR Q&A PRESSURE TEST
 
-Run a realistic live simulation. Stay in character, ask or respond one exchange at a time, pressure-test my answers, then break character after the specified number of exchanges with scores, critique, missed opportunities, and a clear verdict.
+SIMULATE: Run a realistic live role-play for this situation: investor Q&A pressure test.
+
+The simulation must include: opening questions, numbers, market assumptions, founder quality, second-meeting verdict, and what nearly won or lost the investor.
+
+Rules:
+- Stay in character until the debrief
+- Ask or respond one exchange at a time
+- Push back realistically, not theatrically
+- After the agreed number of exchanges, break character
+- Debrief what worked, what failed, what to say differently, and the final outcome
+
+Start the simulation now.
 ```
 
 ### 7. Simulate: Difficult Client Negotiation
 
-Reusable prompt code.
+Simulation prompt code for realistic live practice.
 
-Tags: Prompt Codes
+Tags: Simulate, Prompt Codes
 
 ```text
 SIMULATE: DIFFICULT CLIENT NEGOTIATION
 
-Run a realistic live simulation. Stay in character, ask or respond one exchange at a time, pressure-test my answers, then break character after the specified number of exchanges with scores, critique, missed opportunities, and a clear verdict.
+SIMULATE: Run a realistic live role-play for this situation: difficult client retainer negotiation.
+
+The simulation must include: disappointment, fee reduction pressure, six realistic exchanges, concessions, recovery sentences, and retention verdict.
+
+Rules:
+- Stay in character until the debrief
+- Ask or respond one exchange at a time
+- Push back realistically, not theatrically
+- After the agreed number of exchanges, break character
+- Debrief what worked, what failed, what to say differently, and the final outcome
+
+Start the simulation now.
 ```
 
 ### 8. Simulate: Job Interview - Senior Marketing Role
 
-Reusable prompt code.
+Simulation prompt code for realistic live practice.
 
-Tags: Prompt Codes
+Tags: Simulate, Prompt Codes
 
 ```text
 SIMULATE: JOB INTERVIEW - SENIOR MARKETING ROLE
 
-Run a realistic live simulation. Stay in character, ask or respond one exchange at a time, pressure-test my answers, then break character after the specified number of exchanges with scores, critique, missed opportunities, and a clear verdict.
+SIMULATE: Run a realistic live role-play for this situation: senior marketing job interview.
+
+The simulation must include: competency questions, situational judgement, reverse questions, scoring, model answers, and progression verdict.
+
+Rules:
+- Stay in character until the debrief
+- Ask or respond one exchange at a time
+- Push back realistically, not theatrically
+- After the agreed number of exchanges, break character
+- Debrief what worked, what failed, what to say differently, and the final outcome
+
+Start the simulation now.
 ```
 
 ### 9. Simulate: Difficult Team Conversation
 
-Reusable prompt code.
+Simulation prompt code for realistic live practice.
 
-Tags: Prompt Codes
+Tags: Simulate, Prompt Codes
 
 ```text
 SIMULATE: DIFFICULT TEAM CONVERSATION
 
-Run a realistic live simulation. Stay in character, ask or respond one exchange at a time, pressure-test my answers, then break character after the specified number of exchanges with scores, critique, missed opportunities, and a clear verdict.
+SIMULATE: Run a realistic live role-play for this situation: difficult team performance conversation.
+
+The simulation must include: guarded employee responses, trust building, missed questions, support vs managed-out diagnosis, and manager coaching.
+
+Rules:
+- Stay in character until the debrief
+- Ask or respond one exchange at a time
+- Push back realistically, not theatrically
+- After the agreed number of exchanges, break character
+- Debrief what worked, what failed, what to say differently, and the final outcome
+
+Start the simulation now.
 ```
 
 ### 10. Simulate: Sales Discovery Call
 
-Reusable prompt code.
+Simulation prompt code for realistic live practice.
 
-Tags: Prompt Codes
+Tags: Simulate, Prompt Codes
 
 ```text
 SIMULATE: SALES DISCOVERY CALL
 
-Run a realistic live simulation. Stay in character, ask or respond one exchange at a time, pressure-test my answers, then break character after the specified number of exchanges with scores, critique, missed opportunities, and a clear verdict.
+SIMULATE: Run a realistic live role-play for this situation: AI automation sales discovery call.
+
+The simulation must include: guarded prospect, trust signals, practical objections, next-meeting decision, and what made the prospect feel understood.
+
+Rules:
+- Stay in character until the debrief
+- Ask or respond one exchange at a time
+- Push back realistically, not theatrically
+- After the agreed number of exchanges, break character
+- Debrief what worked, what failed, what to say differently, and the final outcome
+
+Start the simulation now.
 ```
 
 ### 11. Deconstruct: How Luxury Brands Command Premium Prices
 
-Reusable prompt code.
+Deconstruction prompt code for strategic analysis.
 
-Tags: Prompt Codes
+Tags: Deconstruct, Prompt Codes
 
 ```text
 DECONSTRUCT: HOW LUXURY BRANDS COMMAND PREMIUM PRICES
 
-Deconstruct the topic across five named lenses. For each lens, explain the mechanism, provide examples or anti-patterns, and end with a sharp diagnostic takeaway. Tone: analytical, specific, uncomfortable where useful.
+DECONSTRUCT: Break down luxury pricing mechanics across five useful lenses.
+
+Cover: psychology, brand architecture, social signalling, destructive luxury behaviours, and small-business application.
+
+For each lens include:
+- What is really happening
+- Why most people misunderstand it
+- A concrete example
+- One anti-pattern or warning sign
+- A final takeaway sentence
+
+Tone: analytical, specific, and commercially useful. No generic advice.
 ```
 
 ### 12. Deconstruct: Why Most Small Businesses Fail In Year 3
 
-Reusable prompt code.
+Deconstruction prompt code for strategic analysis.
 
-Tags: Prompt Codes
+Tags: Deconstruct, Prompt Codes
 
 ```text
 DECONSTRUCT: WHY MOST SMALL BUSINESSES FAIL IN YEAR 3
 
-Deconstruct the topic across five named lenses. For each lens, explain the mechanism, provide examples or anti-patterns, and end with a sharp diagnostic takeaway. Tone: analytical, specific, uncomfortable where useful.
+DECONSTRUCT: Break down Year 3 small-business failure across five useful lenses.
+
+Cover: survival trap, cash flow, team shift, market assumptions, founder identity, and warning signs.
+
+For each lens include:
+- What is really happening
+- Why most people misunderstand it
+- A concrete example
+- One anti-pattern or warning sign
+- A final takeaway sentence
+
+Tone: analytical, specific, and commercially useful. No generic advice.
 ```
 
 ### 13. Deconstruct: How Viral Content Actually Works
 
-Reusable prompt code.
+Deconstruction prompt code for strategic analysis.
 
-Tags: Prompt Codes
+Tags: Deconstruct, Prompt Codes
 
 ```text
 DECONSTRUCT: HOW VIRAL CONTENT ACTUALLY WORKS
 
-Deconstruct the topic across five named lenses. For each lens, explain the mechanism, provide examples or anti-patterns, and end with a sharp diagnostic takeaway. Tone: analytical, specific, uncomfortable where useful.
+DECONSTRUCT: Break down viral content mechanics across five useful lenses.
+
+Cover: emotion, identity, structure, timing, creator process, and anti-patterns in each section.
+
+For each lens include:
+- What is really happening
+- Why most people misunderstand it
+- A concrete example
+- One anti-pattern or warning sign
+- A final takeaway sentence
+
+Tone: analytical, specific, and commercially useful. No generic advice.
 ```
 
 ### 14. Deconstruct: The Psychology Of Negotiation
 
-Reusable prompt code.
+Deconstruction prompt code for strategic analysis.
 
-Tags: Prompt Codes
+Tags: Deconstruct, Prompt Codes
 
 ```text
 DECONSTRUCT: THE PSYCHOLOGY OF NEGOTIATION
 
-Deconstruct the topic across five named lenses. For each lens, explain the mechanism, provide examples or anti-patterns, and end with a sharp diagnostic takeaway. Tone: analytical, specific, uncomfortable where useful.
+DECONSTRUCT: Break down negotiation psychology across five useful lenses.
+
+Cover: preparation, anchoring, silence, concession design, power imbalance, and next-negotiation actions.
+
+For each lens include:
+- What is really happening
+- Why most people misunderstand it
+- A concrete example
+- One anti-pattern or warning sign
+- A final takeaway sentence
+
+Tone: analytical, specific, and commercially useful. No generic advice.
 ```
 
 ### 15. Deconstruct: Why Most Personal Brands Stay Small
 
-Reusable prompt code.
+Deconstruction prompt code for strategic analysis.
 
-Tags: Prompt Codes
+Tags: Deconstruct, Prompt Codes
 
 ```text
-DECONSTRUCT: Most personal brands never grow beyond their creator's existing network. Why?
+DECONSTRUCT: WHY MOST PERSONAL BRANDS STAY SMALL
 
-Break it down across five lenses: content, positioning, trust transfer, consistency, and conversion. Explain why each limits growth, give specific examples, and end each section with: "The honest question to ask yourself: [one direct self-diagnostic question]."
+DECONSTRUCT: Break down personal brand growth ceiling across five useful lenses.
 
-TONE: Uncomfortable honesty. Challenge someone who thinks they are already doing it right.
+Cover: content reach, positioning, trust transfer, consistency, conversion quality, and self-diagnostic questions.
+
+For each lens include:
+- What is really happening
+- Why most people misunderstand it
+- A concrete example
+- One anti-pattern or warning sign
+- A final takeaway sentence
+
+Tone: analytical, specific, and commercially useful. No generic advice.
 ```
 
 ### 16. Architect: A High-Ticket Coaching Programme
 
-Reusable prompt code.
+Architect prompt code for building systems from scratch.
 
-Tags: Prompt Codes
+Tags: Architect, Prompt Codes
 
 ```text
 ARCHITECT: A HIGH-TICKET COACHING PROGRAMME
 
-Architect a complete system from scratch. Include promise, structure, delivery model, operating rhythm, sales or growth system, risks, and concrete templates. Make every element specific to the audience and use case.
+ARCHITECT: Build a complete system for high-ticket coaching programme.
+
+The system must include: promise, 12-week journey, client experience, sales system, outcomes, and testimonial capture.
+
+Required sections:
+- The promise or outcome
+- The structure
+- The operating rhythm
+- Templates or scripts needed
+- Delivery or implementation workflow
+- Measurement system
+- Risks and how to prevent them
+
+Tone: specific, premium, practical. Every section needs a next action.
 ```
 
 ### 17. Architect: A Productised Service For A Freelancer
 
-Reusable prompt code.
+Architect prompt code for building systems from scratch.
 
-Tags: Prompt Codes
+Tags: Architect, Prompt Codes
 
 ```text
 ARCHITECT: A PRODUCTISED SERVICE FOR A FREELANCER
 
-Architect a complete system from scratch. Include promise, structure, delivery model, operating rhythm, sales or growth system, risks, and concrete templates. Make every element specific to the audience and use case.
+ARCHITECT: Build a complete system for productised freelancer services.
+
+The system must include: entry offer, core offer, premium offer, deliverables, pricing, risk reversal, and sales page structure.
+
+Required sections:
+- The promise or outcome
+- The structure
+- The operating rhythm
+- Templates or scripts needed
+- Delivery or implementation workflow
+- Measurement system
+- Risks and how to prevent them
+
+Tone: specific, premium, practical. Every section needs a next action.
 ```
 
 ### 18. Architect: A Membership Community
 
-Reusable prompt code.
+Architect prompt code for building systems from scratch.
 
-Tags: Prompt Codes
+Tags: Architect, Prompt Codes
 
 ```text
 ARCHITECT: A MEMBERSHIP COMMUNITY
 
-Architect a complete system from scratch. Include promise, structure, delivery model, operating rhythm, sales or growth system, risks, and concrete templates. Make every element specific to the audience and use case.
+ARCHITECT: Build a complete system for membership community.
+
+The system must include: promise, rooms, onboarding, value calendar, engagement engine, growth loop, referral mechanism, and welcome pack.
+
+Required sections:
+- The promise or outcome
+- The structure
+- The operating rhythm
+- Templates or scripts needed
+- Delivery or implementation workflow
+- Measurement system
+- Risks and how to prevent them
+
+Tone: specific, premium, practical. Every section needs a next action.
 ```
 
 ### 19. Architect: A 90-Day Client Onboarding System
 
-Reusable prompt code.
+Architect prompt code for building systems from scratch.
 
-Tags: Prompt Codes
+Tags: Architect, Prompt Codes
 
 ```text
 ARCHITECT: A 90-DAY CLIENT ONBOARDING SYSTEM
 
-Architect a complete system from scratch. Include promise, structure, delivery model, operating rhythm, sales or growth system, risks, and concrete templates. Make every element specific to the audience and use case.
+ARCHITECT: Build a complete system for 90-day client onboarding system.
+
+The system must include: pre-start sequence, first week, strategy month, trust building, reporting, Day 60 question, and 90-day checkpoint.
+
+Required sections:
+- The promise or outcome
+- The structure
+- The operating rhythm
+- Templates or scripts needed
+- Delivery or implementation workflow
+- Measurement system
+- Risks and how to prevent them
+
+Tone: specific, premium, practical. Every section needs a next action.
 ```
 
 ### 20. Architect: A Personal Brand Content System
 
-Reusable prompt code.
+Architect prompt code for building systems from scratch.
 
-Tags: Prompt Codes
+Tags: Architect, Prompt Codes
 
 ```text
 ARCHITECT: A PERSONAL BRAND CONTENT SYSTEM
 
-Architect a complete system from scratch. Include promise, structure, delivery model, operating rhythm, sales or growth system, risks, and concrete templates. Make every element specific to the audience and use case.
+ARCHITECT: Build a complete system for LinkedIn personal brand content system.
+
+The system must include: pillars, weekly rhythm, hook formulas, engagement architecture, soft CTAs, and lead conversion.
+
+Required sections:
+- The promise or outcome
+- The structure
+- The operating rhythm
+- Templates or scripts needed
+- Delivery or implementation workflow
+- Measurement system
+- Risks and how to prevent them
+
+Tone: specific, premium, practical. Every section needs a next action.
 ```
 
 ### 21. Contrast: Weak Vs Strong LinkedIn Profile - Freelance Designer
 
-Reusable prompt code.
+Contrast prompt code for weak vs strong execution.
 
-Tags: Prompt Codes
+Tags: Contrast, Prompt Codes
 
 ```text
 CONTRAST: WEAK VS STRONG LINKEDIN PROFILE - FREELANCE DESIGNER
 
-Show the dramatic difference between weak and strong execution of the same asset. Produce Version A and Version B, annotate why each part fails or works, then end with the single highest-leverage improvement.
+CONTRAST: Show the difference between weak and strong execution for LinkedIn profile contrast.
+
+Include: weak profile, strong profile, annotations, featured section, skills strategy, and 30-day inbound actions.
+
+Required structure:
+VERSION A - WEAK:
+- Write the weak version as people commonly do it
+- Annotate exactly why each part fails
+
+VERSION B - STRONG:
+- Rewrite the same asset at a professional standard
+- Annotate exactly why each choice works
+
+End with the single highest-leverage improvement someone can make immediately.
 ```
 
 ### 22. Contrast: Weak Vs Strong Sales Page - Online Course
 
-Reusable prompt code.
+Contrast prompt code for weak vs strong execution.
 
-Tags: Prompt Codes
+Tags: Contrast, Prompt Codes
 
 ```text
 CONTRAST: WEAK VS STRONG SALES PAGE - ONLINE COURSE
 
-Show the dramatic difference between weak and strong execution of the same asset. Produce Version A and Version B, annotate why each part fails or works, then end with the single highest-leverage improvement.
+CONTRAST: Show the difference between weak and strong execution for course sales page contrast.
+
+Include: weak vs strong headline, subheadline, description, benefits, CTA, conversion psychology, and quick fix.
+
+Required structure:
+VERSION A - WEAK:
+- Write the weak version as people commonly do it
+- Annotate exactly why each part fails
+
+VERSION B - STRONG:
+- Rewrite the same asset at a professional standard
+- Annotate exactly why each choice works
+
+End with the single highest-leverage improvement someone can make immediately.
 ```
 
 ### 23. Contrast: Weak Vs Strong Client Proposal - Agency
 
-Reusable prompt code.
+Contrast prompt code for weak vs strong execution.
 
-Tags: Prompt Codes
+Tags: Contrast, Prompt Codes
 
 ```text
 CONTRAST: WEAK VS STRONG CLIENT PROPOSAL - AGENCY
 
-Show the dramatic difference between weak and strong execution of the same asset. Produce Version A and Version B, annotate why each part fails or works, then end with the single highest-leverage improvement.
+CONTRAST: Show the difference between weak and strong execution for agency proposal contrast.
+
+Include: weak vs strong cover, executive summary, scope, pricing, closing, client reactions, and why proposals lose.
+
+Required structure:
+VERSION A - WEAK:
+- Write the weak version as people commonly do it
+- Annotate exactly why each part fails
+
+VERSION B - STRONG:
+- Rewrite the same asset at a professional standard
+- Annotate exactly why each choice works
+
+End with the single highest-leverage improvement someone can make immediately.
 ```
 
 ### 24. Contrast: Weak Vs Strong Cold Outreach - B2B
 
-Reusable prompt code.
+Contrast prompt code for weak vs strong execution.
 
-Tags: Prompt Codes
+Tags: Contrast, Prompt Codes
 
 ```text
 CONTRAST: WEAK VS STRONG COLD OUTREACH - B2B
 
-Show the dramatic difference between weak and strong execution of the same asset. Produce Version A and Version B, annotate why each part fails or works, then end with the single highest-leverage improvement.
+CONTRAST: Show the difference between weak and strong execution for cold outreach contrast.
+
+Include: weak vs strong LinkedIn DM, opener, pitch, CTA, reply psychology, three opening lines, and banned word.
+
+Required structure:
+VERSION A - WEAK:
+- Write the weak version as people commonly do it
+- Annotate exactly why each part fails
+
+VERSION B - STRONG:
+- Rewrite the same asset at a professional standard
+- Annotate exactly why each choice works
+
+End with the single highest-leverage improvement someone can make immediately.
 ```
 
 ### 25. Contrast: Weak Vs Strong Discovery Call - Consultant
 
-Reusable prompt code.
+Contrast prompt code for weak vs strong execution.
 
-Tags: Prompt Codes
+Tags: Contrast, Prompt Codes
 
 ```text
 CONTRAST: WEAK VS STRONG DISCOVERY CALL - CONSULTANT
 
-Show the dramatic difference between weak and strong execution of the same asset. Produce Version A and Version B, annotate why each part fails or works, then end with the single highest-leverage improvement.
+CONTRAST: Show the difference between weak and strong execution for discovery call contrast.
+
+Include: weak vs expert consultant call, diagnostic questions, logo objection, price framing, exact close, and hidden close-rate question.
+
+Required structure:
+VERSION A - WEAK:
+- Write the weak version as people commonly do it
+- Annotate exactly why each part fails
+
+VERSION B - STRONG:
+- Rewrite the same asset at a professional standard
+- Annotate exactly why each choice works
+
+End with the single highest-leverage improvement someone can make immediately.
 ```
 
 ## Seedance 2.0 Director's Playbook
@@ -1028,549 +1331,550 @@ Show the dramatic difference between weak and strong execution of the same asset
 
 ### 1. Luxury Skincare Brand Commercial
 
-Cinematic Seedance video prompt.
+Brand commercial video prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Brand Commercial
 
 ```text
 Cinematic luxury skincare commercial. 15 seconds. No dialogue. No text overlays.
 
-Subject: A [ETHNICITY] woman, approximately [AGE] years old, flawless natural skin, minimal makeup, hair loosely swept back.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Extreme close-up. Her fingertips press gently into a glass jar of pale cream serum. Slow motion.
-Shot 2 (4-9s): Medium close-up. She applies the serum to her cheekbone with slow upward strokes. Warm morning window light reveals skin texture, pores, and luminosity.
-Shot 3 (9-13s): Wide beauty shot. She opens her eyes and looks directly into the lens. Calm, radiant, present.
-Shot 4 (13-15s): Product only. The glass jar rotates slowly on white marble. Fade.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: fingertips entering cream serum.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: cheekbone application.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: radiant eye contact.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: product jar rotating on marble.
 
-Style: Chanel / La Mer campaign quality. Warm clean beauty lighting. Photorealistic, 35mm quality.
-Audio: Silence until a single piano note on the final shot.
-Quality: 4K, stable motion throughout.
+Style: Chanel / La Mer skin-first beauty film.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
+Quality: 4K, stable motion, no distortion.
 ```
 
 ### 2. Street Fashion Brand Launch Video
 
-Cinematic Seedance video prompt.
+Brand commercial video prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Brand Commercial
 
 ```text
-STREET FASHION BRAND LAUNCH VIDEO
+Cinematic street fashion brand launch. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: rain-wet sneaker walk.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: East London market tracking shot.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: 180-degree orbit.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: overhead drone pull-away.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: Nike / Palace streetwear editorial.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 3. Premium Gym Equipment Commercial
 
-Cinematic Seedance video prompt.
+Brand commercial video prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Brand Commercial
 
 ```text
-PREMIUM GYM EQUIPMENT COMMERCIAL
+Cinematic premium gym equipment commercial. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: spotlit equipment reveal.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: athlete entering light.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: perfect rep in slow motion.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: respectful machine-focused ending.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: Rogue Fitness dark industrial campaign.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 4. Tech Startup Product Demo Video
 
-Cinematic Seedance video prompt.
+Brand commercial video prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Brand Commercial
 
 ```text
-TECH STARTUP PRODUCT DEMO VIDEO
+Cinematic B2B tech product demo. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: cluttered problem moment.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: clean UI discovery.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: feature-speed transformation.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: calm tidy outcome.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: Notion / Linear / Stripe product marketing.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 5. Luxury Hotel Brand Video
 
-Cinematic Seedance video prompt.
+Brand commercial video prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Brand Commercial
 
 ```text
-LUXURY HOTEL BRAND VIDEO
+Cinematic luxury hotel brand film. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: aerial sunrise reveal.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: still pool guest.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: suite drift-through.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: horizon-only ending.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: Aman / Six Senses slow luxury.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 6. Hip-Hop Artist - Statement Visual
 
-Cinematic Seedance video prompt.
+Music artist visual prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Music Visual
 
 ```text
-HIP-HOP ARTIST - STATEMENT VISUAL
+Cinematic hip-hop artist statement visual. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: 3am car arrival.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: rain orbit.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: five-second lens stare.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: hard cut to black.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: Drake / Travis Scott presence visual.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 7. Afrobeats Artist - Golden Hour Visual
 
-Cinematic Seedance video prompt.
+Music artist visual prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Music Visual
 
 ```text
-AFROBEATS ARTIST - GOLDEN HOUR VISUAL
+Cinematic Afrobeats golden-hour visual. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: Lagos rooftop stillness.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: private dance.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: fabric and jewellery slow motion.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: genuine smile.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: Burna Boy / Wizkid warm human visual.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 8. R&B Artist - Studio Intimate Visual
 
-Cinematic Seedance video prompt.
+Music artist visual prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Music Visual
 
 ```text
-R&B ARTIST - STUDIO INTIMATE VISUAL
+Cinematic R&B studio intimate visual. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: mic close-up.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: pullback through control-room glass.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: headphone removal.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: waveform pulse.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: SZA / H.E.R. private studio intimacy.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 9. Electronic Artist - Abstract Visual
 
-Cinematic Seedance video prompt.
+Music artist visual prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Music Visual
 
 ```text
-ELECTRONIC ARTIST - ABSTRACT VISUAL
+Cinematic electronic abstract visual. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: empty warehouse beam.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: laser fracture.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: smoke silhouette.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: blinding convergence.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: Four Tet / Aphex Twin non-literal space.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 10. Gospel Artist - Spiritual Visual
 
-Cinematic Seedance video prompt.
+Music artist visual prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Music Visual
 
 ```text
-GOSPEL ARTIST - SPIRITUAL VISUAL
+Cinematic gospel spiritual visual. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: stone church scale.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: private raised hands.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: single tear.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: backlit luminous fade.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: Maverick City reverent sacred film.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 11. Small Business Owner - Brand Story Short
 
-Cinematic Seedance video prompt.
+Social media content video prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Social Video
 
 ```text
-SMALL BUSINESS OWNER - BRAND STORY SHORT
+Cinematic small business brand story. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: 4am hands at work.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: product pride.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: first customer joy.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: cycle begins again.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: warm micro-documentary.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 12. Personal Trainer - Client Transformation Short
 
-Cinematic Seedance video prompt.
+Social media content video prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Social Video
 
 ```text
-PERSONAL TRAINER - CLIENT TRANSFORMATION SHORT
+Cinematic personal trainer client transformation. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: uncertain arrival.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: honest effort montage.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: one perfect rep.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: resolved bench moment.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: Nike Training documentary realism.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 13. Beauty Business Owner - Product Reveal Short
 
-Cinematic Seedance video prompt.
+Social media content video prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Social Video
 
 ```text
-BEAUTY BUSINESS OWNER - PRODUCT REVEAL SHORT
+Cinematic beauty founder product reveal. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: marble product push-in.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: founder smelling product.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: careful arrangement.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: product-only pullback.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: Aesop / Byredo product-as-character film.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 14. Motivational Speaker - Personal Brand Short
 
-Cinematic Seedance video prompt.
+Social media content video prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Social Video
 
 ```text
-MOTIVATIONAL SPEAKER - PERSONAL BRAND SHORT
+Cinematic motivational speaker personal brand. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: backstage breath.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: walk into stage light.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: silent wide stage.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: eye contact with one audience member.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: presence-focused speaker film.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 15. Real Estate Agent - Property Listing Short
 
-Cinematic Seedance video prompt.
+Social media content video prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Social Video
 
 ```text
-REAL ESTATE AGENT - PROPERTY LISTING SHORT
+Cinematic premium property listing. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: drone facade reveal.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: kitchen slider.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: garden life detail.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: warm facade ending.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: Knight Frank / Savills listing film.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 16. The Early Morning Ritual
 
-Cinematic Seedance video prompt.
+Cinematic short story prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Short Story
 
 ```text
-THE EARLY MORNING RITUAL
+Cinematic early morning ritual. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: 5:30 alarm.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: sitting on bed deciding.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: espresso close-up.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: city window resolve.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: quiet pre-dawn short film.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 17. The Last Day In The City
 
-Cinematic Seedance video prompt.
+Cinematic short story prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Short Story
 
 ```text
-THE LAST DAY IN THE CITY
+Cinematic last day in the city. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: bridge at dawn.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: hand on brick wall.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: final coffee shop visit.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: walk to station.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: Wong Kar-wai farewell mood.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 18. The Artist And The Work
 
-Cinematic Seedance video prompt.
+Cinematic short story prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Short Story
 
 ```text
-THE ARTIST AND THE WORK
+Cinematic artist breakthrough. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: unfinished canvas stare.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: posture shift.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: bold brush stroke macro.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: final exhale.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: raw artist documentary.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 19. The Business Pitch
 
-Cinematic Seedance video prompt.
+Cinematic short story prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Short Story
 
 ```text
-THE BUSINESS PITCH
+Cinematic business pitch. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: corridor note cards.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: boardroom entry.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: conviction mid-pitch.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: investor leans forward.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: startup narrative tension.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 20. The Homecoming
 
-Cinematic Seedance video prompt.
+Cinematic short story prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Short Story
 
 ```text
-THE HOMECOMING
+Cinematic homecoming. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: train-window face.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: known house at night.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: gate opening.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: door opens into warmth.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: quiet emotional homecoming.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 21. The Market Trader
 
-Cinematic Seedance video prompt.
+Documentary-style video prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Documentary
 
 ```text
-Cinematic documentary short. 15 seconds. No text. No dialogue.
+Cinematic market trader documentary. 15 seconds. No dialogue. No text overlays.
 
-Subject: A [ETHNICITY] market trader, approximately [AGE] years old, selling [TYPE] at a weekend market.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): 5am setup. Hands arranging produce in the dark, headtorch on, breath visible in cold air.
-Shot 2 (4-8s): The market opens. First customers arrive. The trader's energy switches on.
-Shot 3 (8-12s): A quiet moment between customers. They lean on the stall and look down the market.
-Shot 4 (12-15s): An elderly customer hesitates. The trader chooses the right item for them. The care of expertise. Fade.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: 5am setup.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: market opens.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: quiet stall moment.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: expert customer care.
 
-Style: BBC Storyworks documentary quality. Real people, real work.
-Grade: cold morning blues warming to market day amber.
-Audio: Market ambience, distant calls, produce on wood, quiet between customers.
-Quality: 4K, natural handheld, no distortion.
+Style: BBC Storyworks market realism.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
+Quality: 4K, stable motion, no distortion.
 ```
 
 ### 22. Nurse End Of Shift
 
-Cinematic Seedance video prompt.
+Documentary-style video prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Documentary
 
 ```text
-NURSE END OF SHIFT
+Cinematic nurse end of shift. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: gloves removed.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: locker family photo.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: first outdoor breath.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: bus stop at dawn.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: observational healthcare documentary.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 23. Independent Bookshop Owner
 
-Cinematic Seedance video prompt.
+Documentary-style video prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Documentary
 
 ```text
-INDEPENDENT BOOKSHOP OWNER
+Cinematic independent bookshop owner. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: door key turning.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: staff-pick card.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: first recommendation.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: warm window ending.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: literary micro-documentary.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 24. Night Security Guard
 
-Cinematic Seedance video prompt.
+Documentary-style video prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Documentary
 
 ```text
-NIGHT SECURITY GUARD
+Cinematic night security guard. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: torch in empty lobby.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: CCTV glow.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: rooftop city pause.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: locked-door patrol.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: lonely urban documentary.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
 
 ### 25. First-Generation University Graduate
 
-Cinematic Seedance video prompt.
+Documentary-style video prompt.
 
-Tags: Seedance, Video
+Tags: Seedance, Documentary
 
 ```text
-FIRST-GENERATION UNIVERSITY GRADUATE
+Cinematic first-generation university graduate. 15 seconds. No dialogue. No text overlays.
 
-Cinematic 15-second AI video prompt. No dialogue. No text overlays.
+Subject: [Describe the person/product/place with age, ethnicity where relevant, wardrobe, mood, and setting.]
 
-Shot 1 (0-4s): Establish the subject, environment, and emotional context with a precise camera setup.
-Shot 2 (4-8s): Show the key action or turning point with motivated movement and cinematic detail.
-Shot 3 (8-12s): Capture the most human, product, or story-specific detail in close-up or controlled motion.
-Shot 4 (12-15s): Resolve the moment with a strong final image, fade, hard cut, or emotional hold.
+Shot 1 (0-4s): Establish the opening beat with precise framing and motivated light. Key moment: gown adjusted by parent.
+Shot 2 (4-8s): Develop the story with controlled camera movement. Key moment: campus walk.
+Shot 3 (8-12s): Move into the defining detail or emotional turn. Key moment: family spotted.
+Shot 4 (12-15s): Resolve with a memorable final image. Key moment: certificate photo.
 
-Style: Premium cinematic reference quality matched to the subject.
-Grade: Specific colour palette and lighting mood.
-Audio: Natural ambience, minimal sound design, silence where powerful.
+Style: warm graduation documentary.
+Grade: Specific colour palette matched to the scene, with controlled highlights and intentional shadows.
+Audio: Natural ambience plus one restrained sound-design accent; use silence where it increases emotion.
 Quality: 4K, stable motion, no distortion.
 ```
